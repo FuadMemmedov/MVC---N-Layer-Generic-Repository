@@ -1,0 +1,17 @@
+C:\Users\memme\source\repos\ProniaTask\ProniaTask.Business\bin\Debug\net6.0\ProniaTask.Business.deps.json
+C:\Users\memme\source\repos\ProniaTask\ProniaTask.Business\bin\Debug\net6.0\ProniaTask.Business.dll
+C:\Users\memme\source\repos\ProniaTask\ProniaTask.Business\bin\Debug\net6.0\ProniaTask.Business.pdb
+C:\Users\memme\source\repos\ProniaTask\ProniaTask.Business\bin\Debug\net6.0\ProniaTask.Core.dll
+C:\Users\memme\source\repos\ProniaTask\ProniaTask.Business\bin\Debug\net6.0\ProniaTask.Data.dll
+C:\Users\memme\source\repos\ProniaTask\ProniaTask.Business\bin\Debug\net6.0\ProniaTask.Data.pdb
+C:\Users\memme\source\repos\ProniaTask\ProniaTask.Business\bin\Debug\net6.0\ProniaTask.Core.pdb
+C:\Users\memme\source\repos\ProniaTask\ProniaTask.Business\obj\Debug\net6.0\ProniaTask.Business.csproj.AssemblyReference.cache
+C:\Users\memme\source\repos\ProniaTask\ProniaTask.Business\obj\Debug\net6.0\ProniaTask.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\memme\source\repos\ProniaTask\ProniaTask.Business\obj\Debug\net6.0\ProniaTask.Business.AssemblyInfoInputs.cache
+C:\Users\memme\source\repos\ProniaTask\ProniaTask.Business\obj\Debug\net6.0\ProniaTask.Business.AssemblyInfo.cs
+C:\Users\memme\source\repos\ProniaTask\ProniaTask.Business\obj\Debug\net6.0\ProniaTask.Business.csproj.CoreCompileInputs.cache
+C:\Users\memme\source\repos\ProniaTask\ProniaTask.Business\obj\Debug\net6.0\ProniaTa.B3681FE7.Up2Date
+C:\Users\memme\source\repos\ProniaTask\ProniaTask.Business\obj\Debug\net6.0\ProniaTask.Business.dll
+C:\Users\memme\source\repos\ProniaTask\ProniaTask.Business\obj\Debug\net6.0\refint\ProniaTask.Business.dll
+C:\Users\memme\source\repos\ProniaTask\ProniaTask.Business\obj\Debug\net6.0\ProniaTask.Business.pdb
+C:\Users\memme\source\repos\ProniaTask\ProniaTask.Business\obj\Debug\net6.0\ref\ProniaTask.Business.dll
