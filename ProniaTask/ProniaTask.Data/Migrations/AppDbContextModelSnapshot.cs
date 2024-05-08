@@ -121,12 +121,17 @@ namespace ProniaTask.Data.Migrations
             modelBuilder.Entity("ProniaTask.Core.Models.Product", b =>
                 {
                     b.HasOne("ProniaTask.Core.Models.Category", "Category")
-                        .WithMany()
+                        .WithMany("Products")
                         .HasForeignKey("CategoryId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.Navigation("Category");
+                });
+
+            modelBuilder.Entity("ProniaTask.Core.Models.Category", b =>
+                {
+                    b.Navigation("Products");
                 });
 #pragma warning restore 612, 618
         }

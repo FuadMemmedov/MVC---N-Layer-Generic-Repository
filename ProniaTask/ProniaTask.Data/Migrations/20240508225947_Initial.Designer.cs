@@ -11,7 +11,7 @@ using ProniaTask.Data.DAL;
 namespace ProniaTask.Data.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20240508211818_Initial")]
+    [Migration("20240508225947_Initial")]
     partial class Initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -123,12 +123,17 @@ namespace ProniaTask.Data.Migrations
             modelBuilder.Entity("ProniaTask.Core.Models.Product", b =>
                 {
                     b.HasOne("ProniaTask.Core.Models.Category", "Category")
-                        .WithMany()
+                        .WithMany("Products")
                         .HasForeignKey("CategoryId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.Navigation("Category");
+                });
+
+            modelBuilder.Entity("ProniaTask.Core.Models.Category", b =>
+                {
+                    b.Navigation("Products");
                 });
 #pragma warning restore 612, 618
         }
