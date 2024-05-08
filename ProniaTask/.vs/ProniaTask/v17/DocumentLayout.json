@@ -1,12 +1,37 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\memme\\source\\repos\\ProniaTask\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\memme\\Desktop\\MVC---N-Layer-Generic-Repository\\ProniaTask\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4F5DB201-5DD6-4A27-BA89-4C070A76D5DC}|ProniaTask.Business\\ProniaTask.Business.csproj|c:\\users\\memme\\desktop\\mvc---n-layer-generic-repository\\proniatask\\proniatask.business\\services\\concretes\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F5DB201-5DD6-4A27-BA89-4C070A76D5DC}|ProniaTask.Business\\ProniaTask.Business.csproj|solutionrelative:proniatask.business\\services\\concretes\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "C:\\Users\\memme\\Desktop\\MVC---N-Layer-Generic-Repository\\ProniaTask\\ProniaTask.Business\\Services\\Concretes\\ProductService.cs",
+              "RelativeDocumentMoniker": "ProniaTask.Business\\Services\\Concretes\\ProductService.cs",
+              "ToolTip": "C:\\Users\\memme\\Desktop\\MVC---N-Layer-Generic-Repository\\ProniaTask\\ProniaTask.Business\\Services\\Concretes\\ProductService.cs",
+              "RelativeToolTip": "ProniaTask.Business\\Services\\Concretes\\ProductService.cs",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAADwAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T22:38:41.832Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

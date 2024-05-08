@@ -2111,11 +2111,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\memme\\source\\repos\\ProniaTask\\ProniaTask\\ProniaTask.csproj",
+      "projectUniqueName": "C:\\Users\\memme\\Desktop\\MVC---N-Layer-Generic-Repository\\ProniaTask\\ProniaTask\\ProniaTask.csproj",
       "projectName": "ProniaTask",
-      "projectPath": "C:\\Users\\memme\\source\\repos\\ProniaTask\\ProniaTask\\ProniaTask.csproj",
+      "projectPath": "C:\\Users\\memme\\Desktop\\MVC---N-Layer-Generic-Repository\\ProniaTask\\ProniaTask\\ProniaTask.csproj",
       "packagesPath": "C:\\Users\\memme\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\memme\\source\\repos\\ProniaTask\\ProniaTask\\obj\\",
+      "outputPath": "C:\\Users\\memme\\Desktop\\MVC---N-Layer-Generic-Repository\\ProniaTask\\ProniaTask\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\memme\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2132,8 +2132,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\memme\\source\\repos\\ProniaTask\\ProniaTask.Business\\ProniaTask.Business.csproj": {
-              "projectPath": "C:\\Users\\memme\\source\\repos\\ProniaTask\\ProniaTask.Business\\ProniaTask.Business.csproj"
+            "C:\\Users\\memme\\Desktop\\MVC---N-Layer-Generic-Repository\\ProniaTask\\ProniaTask.Business\\ProniaTask.Business.csproj": {
+              "projectPath": "C:\\Users\\memme\\Desktop\\MVC---N-Layer-Generic-Repository\\ProniaTask\\ProniaTask.Business\\ProniaTask.Business.csproj"
             }
           }
         }

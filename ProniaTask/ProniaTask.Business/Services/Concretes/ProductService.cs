@@ -20,12 +20,9 @@ public class ProductService:IProductService
     }
     public async Task AddProduct(Product Product)
     {
-        if (!_productRepository.GetAll().Any(x => x.Name == Product.Name))
-        {
-
-            await _productRepository.AddAsync(Product);
-            await _productRepository.CommitAsync();
-        }
+         await _productRepository.AddAsync(Product);
+         await _productRepository.CommitAsync();
+        
     }
 
     public void DeleteProduct(int id)
@@ -52,8 +49,8 @@ public class ProductService:IProductService
     {
         Product oldProduct = _productRepository.Get(x => x.Id == id);
         if (oldProduct == null) throw new NullReferenceException();
-        if (!_productRepository.GetAll().Any(x => x.Name == newProduct.Name))
-        {
+      
+        
             oldProduct.Name = newProduct.Name;
             oldProduct.Price = newProduct.Price;
             oldProduct.Description = newProduct.Description;
@@ -61,7 +58,7 @@ public class ProductService:IProductService
             oldProduct.ImageUrl = newProduct.ImageUrl;
             oldProduct.ImageFile = newProduct.ImageFile;
 
-        }
+        
         _productRepository.Commit();
     }
 }
