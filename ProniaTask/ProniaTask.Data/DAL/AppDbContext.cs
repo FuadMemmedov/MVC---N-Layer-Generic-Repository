@@ -13,6 +13,7 @@ public class AppDbContext:DbContext
     public DbSet<Category> Categories { get; set; }
     public DbSet<Product> Products { get; set; }
     public DbSet<Tag> Tags { get; set; }
+    public DbSet<Feature> Features { get; set; }
     public AppDbContext(DbContextOptions options) : base(options)
     {
         

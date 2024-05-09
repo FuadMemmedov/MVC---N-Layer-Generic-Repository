@@ -1,12 +1,22 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using ProniaTask.Business.Services.Abstracts;
+using ProniaTask.Core.Models;
 
 namespace ProniaTask.Controllers
 {
     public class ShopController : Controller
     {
+        ICategoryService _categoryService;
+
+        public ShopController(ICategoryService categoryService)
+        {
+            _categoryService = categoryService; 
+        }
         public IActionResult Index()
         {
-            return View();
+            List<Category> categories = _categoryService.GetAllCategorys();
+
+            return View(categories);
         }
 
         public IActionResult Detail()

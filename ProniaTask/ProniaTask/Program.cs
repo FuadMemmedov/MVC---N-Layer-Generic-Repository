@@ -1,5 +1,9 @@
 using Microsoft.EntityFrameworkCore;
+using ProniaTask.Business.Services.Abstracts;
+using ProniaTask.Business.Services.Concretes;
+using ProniaTask.Core.RepositoryAbstracts;
 using ProniaTask.Data.DAL;
+using ProniaTask.Data.RepositoryConcretes;
 
 namespace ProniaTask
 {
@@ -17,6 +21,11 @@ namespace ProniaTask
             
             );
 
+            builder.Services.AddScoped<ICategoryService, CategoryService>();
+            builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
+            builder.Services.AddScoped<IFeatureService, FeatureService>();
+            builder.Services.AddScoped<IFeatureRepository, FeatureRepisitory>();
+
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
@@ -33,6 +42,11 @@ namespace ProniaTask
             app.MapControllerRoute(
                 name: "default",
                 pattern: "{controller=Home}/{action=Index}/{id?}");
+
+            app.MapControllerRoute(
+              name: "areas",
+              pattern: "{area:exists}/{controller=dashboard}/{action=index}/{id?}"
+            );
 
             app.Run();
         }

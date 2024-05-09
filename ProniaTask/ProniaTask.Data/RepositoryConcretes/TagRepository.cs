@@ -1,4 +1,5 @@
 ﻿using ProniaTask.Core.Models;
+using ProniaTask.Core.RepositoryAbstracts;
 using ProniaTask.Data.DAL;
 using System;
 using System.Collections.Generic;
@@ -8,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace ProniaTask.Data.RepositoryConcretes;
 
-public class TagRepository:GenericRepository<Tag>
+public class TagRepository:GenericRepository<Tag>,ITagRepository
 {
     public TagRepository(AppDbContext appDbContext): base(appDbContext)
     {

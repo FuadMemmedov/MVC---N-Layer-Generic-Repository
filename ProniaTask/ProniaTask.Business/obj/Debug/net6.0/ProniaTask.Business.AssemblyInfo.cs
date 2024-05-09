@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ProniaTask.Business")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7900431e5eb98e702c00609dcb10a4b3971440e9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1d9e7cd724edb065bd7211892b05432d14593a3d")]
 [assembly: System.Reflection.AssemblyProductAttribute("ProniaTask.Business")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ProniaTask.Business")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
