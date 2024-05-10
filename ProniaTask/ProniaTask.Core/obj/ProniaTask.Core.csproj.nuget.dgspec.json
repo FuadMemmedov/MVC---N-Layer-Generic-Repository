@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\memme\\Desktop\\MVC---N-Layer-Generic-Repository\\ProniaTask\\ProniaTask.Core\\ProniaTask.Core.csproj": {}
+    "C:\\Users\\memme\\Desktop\\CodeAcademyTask\\MVC---N-Layer-Generic-Repository\\ProniaTask\\ProniaTask.Core\\ProniaTask.Core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\memme\\Desktop\\MVC---N-Layer-Generic-Repository\\ProniaTask\\ProniaTask.Core\\ProniaTask.Core.csproj": {
+    "C:\\Users\\memme\\Desktop\\CodeAcademyTask\\MVC---N-Layer-Generic-Repository\\ProniaTask\\ProniaTask.Core\\ProniaTask.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\memme\\Desktop\\MVC---N-Layer-Generic-Repository\\ProniaTask\\ProniaTask.Core\\ProniaTask.Core.csproj",
+        "projectUniqueName": "C:\\Users\\memme\\Desktop\\CodeAcademyTask\\MVC---N-Layer-Generic-Repository\\ProniaTask\\ProniaTask.Core\\ProniaTask.Core.csproj",
         "projectName": "ProniaTask.Core",
-        "projectPath": "C:\\Users\\memme\\Desktop\\MVC---N-Layer-Generic-Repository\\ProniaTask\\ProniaTask.Core\\ProniaTask.Core.csproj",
+        "projectPath": "C:\\Users\\memme\\Desktop\\CodeAcademyTask\\MVC---N-Layer-Generic-Repository\\ProniaTask\\ProniaTask.Core\\ProniaTask.Core.csproj",
         "packagesPath": "C:\\Users\\memme\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\memme\\Desktop\\MVC---N-Layer-Generic-Repository\\ProniaTask\\ProniaTask.Core\\obj\\",
+        "outputPath": "C:\\Users\\memme\\Desktop\\CodeAcademyTask\\MVC---N-Layer-Generic-Repository\\ProniaTask\\ProniaTask.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\memme\\AppData\\Roaming\\NuGet\\NuGet.Config",

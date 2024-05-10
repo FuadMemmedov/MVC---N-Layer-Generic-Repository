@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "nqf3iN98/+uNjDwvDXx+XZboFcQEzZCQcyCsuR1nDywvFTSorICPSSEx3c7TpledLpYjPP2KvyOOTewze0i7Pw==",
+  "dgSpecHash": "HZY1Kd64NW1+HbnHO2k6OXjGDLzwR8nMhEQz0imhC85zccMKkaeJTsj+DgJKopW5pTfUuXrdBjPyj2EvEOjVsw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\memme\\Desktop\\MVC---N-Layer-Generic-Repository\\ProniaTask\\ProniaTask.Data\\ProniaTask.Data.csproj",
+  "projectFilePath": "C:\\Users\\memme\\Desktop\\CodeAcademyTask\\MVC---N-Layer-Generic-Repository\\ProniaTask\\ProniaTask.Data\\ProniaTask.Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\memme\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\memme\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.17\\microsoft.aspnetcore.http.features.5.0.17.nupkg.sha512",

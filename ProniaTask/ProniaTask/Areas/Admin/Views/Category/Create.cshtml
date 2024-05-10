@@ -1,0 +1,16 @@
+﻿@using ProniaTask.Core.Models
+@model Category
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            <form asp-action="Create" method="post">
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Name</label>
+                    <input type="text" asp-for="Name" class="form-control" id="exampleInputEmail1">
+                </div>
+                 <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+    </div>
+</div>
+

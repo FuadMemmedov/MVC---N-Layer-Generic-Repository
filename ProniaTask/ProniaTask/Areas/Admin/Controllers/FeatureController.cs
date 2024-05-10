@@ -26,13 +26,9 @@ namespace ProniaTask.Areas.Admin.Controllers
             return View();
         }
         [HttpPost]
-        public IActionResult Create(Feature feature)
+        public async Task<IActionResult> Create(Feature feature)
         {
-
-            if (!ModelState.IsValid)
-                return View();
-
-            _featureService.AddFeature(feature);
+            await _featureService.AddFeature(feature);
             return RedirectToAction("index");
 
         }

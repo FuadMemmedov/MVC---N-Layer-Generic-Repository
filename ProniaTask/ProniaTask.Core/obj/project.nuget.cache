@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "82paXoqWCSJIRjfFtJPZ7XEOe5bB1y26X0UPhXs2kjK/8FVtstyRWtK5gzkz87SKjm/3xVBU63Ug8+mXzpV+JQ==",
+  "dgSpecHash": "+8n6Fn1Gd1jN1tRP5oUewvkR+IVg2fqWo6ab0Z/syzGAAVbc5I+bvQq2jjkFu+33H05MEVbGjV6hYYD0/2p2WQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\memme\\Desktop\\MVC---N-Layer-Generic-Repository\\ProniaTask\\ProniaTask.Core\\ProniaTask.Core.csproj",
+  "projectFilePath": "C:\\Users\\memme\\Desktop\\CodeAcademyTask\\MVC---N-Layer-Generic-Repository\\ProniaTask\\ProniaTask.Core\\ProniaTask.Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\memme\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.17\\microsoft.aspnetcore.http.features.5.0.17.nupkg.sha512",
     "C:\\Users\\memme\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.1\\microsoft.extensions.primitives.5.0.1.nupkg.sha512",

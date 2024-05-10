@@ -25,6 +25,8 @@ namespace ProniaTask
             builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
             builder.Services.AddScoped<IFeatureService, FeatureService>();
             builder.Services.AddScoped<IFeatureRepository, FeatureRepisitory>();
+            builder.Services.AddScoped<ISliderService, SliderService>();
+            builder.Services.AddScoped<ISliderRepository, SliderRepository>();
 
             var app = builder.Build();
 
@@ -38,16 +40,16 @@ namespace ProniaTask
             app.UseRouting();
 
             app.UseAuthorization();
-
-            app.MapControllerRoute(
-                name: "default",
-                pattern: "{controller=Home}/{action=Index}/{id?}");
-
             app.MapControllerRoute(
               name: "areas",
               pattern: "{area:exists}/{controller=dashboard}/{action=index}/{id?}"
             );
 
+            app.MapControllerRoute(
+                name: "default",
+                pattern: "{controller=Home}/{action=Index}/{id?}");
+
+        
             app.Run();
         }
     }
