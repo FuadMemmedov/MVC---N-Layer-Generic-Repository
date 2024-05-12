@@ -17,9 +17,8 @@ public class Slider:BaseEntity
     public string Title { get; set; }
     public string Description { get; set; }
     public string? RedirectUrl { get; set; }
-    [Required]
     [StringLength(100)]
-    public string ImageUrl { get; set; }
+    public string? ImageUrl { get; set; }
     [NotMapped]
     public IFormFile ImageFile { get; set; }
 

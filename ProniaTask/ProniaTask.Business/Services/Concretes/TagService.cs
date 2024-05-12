@@ -11,7 +11,7 @@ namespace ProniaTask.Business.Services.Concretes;
 
 public class TagService : ITagService
 {
-    ITagRepository _tagRepository;
+	private readonly ITagRepository _tagRepository;
 
     public TagService(ITagRepository tagRepository)
     {

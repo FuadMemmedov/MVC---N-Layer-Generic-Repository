@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using ProniaTask.Business.Enums;
 using ProniaTask.Business.Services.Abstracts;
 using ProniaTask.Core.Models;
 
@@ -28,31 +29,39 @@ namespace ProniaTask.Areas.Admin.Controllers
         [HttpPost]
         public async Task<IActionResult> Create(Feature feature)
         {
+
+            if (!ModelState.IsValid)
+                return View();
             await _featureService.AddFeature(feature);
             return RedirectToAction("index");
 
-        }
-
-       
-        [HttpPost]
-        public IActionResult DeletePost(int id)
-        {
-            _featureService.DeleteFeature(id);
-
-            return RedirectToAction("index");
         }
 
         public IActionResult Delete(int id)
         {
             var existFeature = _featureService.GetFeature(x => x.Id == id);
 
-            if (existFeature == null)
+            if (existFeature == null) return NotFound();
+            return View(existFeature);
+        }
+       
+        [HttpPost]
+        public IActionResult DeletePost(int id)
+        {
+
+            try
             {
+				_featureService.DeleteFeature(id);
+			}
+            catch (EntityNotFoundException ex)
+            {
+
                 return NotFound();
             }
 
-            return View(existFeature);
+            return RedirectToAction("index");
         }
+
 
 
 
@@ -61,7 +70,7 @@ namespace ProniaTask.Areas.Admin.Controllers
         {
             var existFeature = _featureService.GetFeature(x => x.Id == id);
 
-            if (existFeature == null) throw new NullReferenceException();
+            if (existFeature == null) return NotFound();
 
             return View(existFeature);
         }
@@ -69,7 +78,18 @@ namespace ProniaTask.Areas.Admin.Controllers
         [HttpPost]
         public IActionResult Update(Feature newFeature)
         {
-            _featureService.UpdateFeature(newFeature.Id, newFeature);
+            if (!ModelState.IsValid)
+                return View();
+            try
+            {
+				_featureService.UpdateFeature(newFeature.Id, newFeature);
+			}
+            catch (EntityNotFoundException ex)
+            {
+
+                return NotFound();
+            }
+           
             return RedirectToAction("index");
         }
     }

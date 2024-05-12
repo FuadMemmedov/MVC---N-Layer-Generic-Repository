@@ -6,7 +6,7 @@ namespace ProniaTask.Controllers
 {
     public class ShopController : Controller
     {
-        ICategoryService _categoryService;
+		private readonly ICategoryService _categoryService;
 
         public ShopController(ICategoryService categoryService)
         {

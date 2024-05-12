@@ -11,7 +11,7 @@ namespace ProniaTask.Business.Services.Concretes;
 
 public class ProductService:IProductService
 {
-    IProductRepository _productRepository;
+	private readonly IProductRepository _productRepository;
 
     public ProductService(IProductRepository productRepository)
     {

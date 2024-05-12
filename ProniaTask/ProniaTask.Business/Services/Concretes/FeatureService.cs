@@ -1,4 +1,5 @@
-﻿using ProniaTask.Business.Services.Abstracts;
+﻿using ProniaTask.Business.Enums;
+using ProniaTask.Business.Services.Abstracts;
 using ProniaTask.Core.Models;
 using ProniaTask.Core.RepositoryAbstracts;
 using ProniaTask.Data.RepositoryConcretes;
@@ -12,7 +13,7 @@ namespace ProniaTask.Business.Services.Concretes;
 
 public class FeatureService : IFeatureService
 {
-    IFeatureRepository _featuresRepository;
+	private readonly IFeatureRepository _featuresRepository;
 
     public FeatureService(IFeatureRepository featuresRepository)
     {
@@ -27,7 +28,7 @@ public class FeatureService : IFeatureService
     public void DeleteFeature(int id)
     {
         var existFeature = _featuresRepository.Get(x => x.Id == id);
-        if (existFeature == null) throw new NullReferenceException("Bele feature yoxdur");
+        if (existFeature == null) throw new EntityNotFoundException("Bele feature yoxdur");
 
         _featuresRepository.Delete(existFeature);
         _featuresRepository.Commit();
@@ -47,7 +48,7 @@ public class FeatureService : IFeatureService
     public void UpdateFeature(int id, Feature newFeature)
     {
         Feature oldFeature = _featuresRepository.Get(x => x.Id == id);
-        if (oldFeature == null) throw new NullReferenceException("Bele feature yoxdur");
+        if (oldFeature == null) throw new EntityNotFoundException("Bele feature yoxdur");
 
 
         oldFeature.Icon = newFeature.Icon;

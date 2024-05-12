@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using ProniaTask.Business.Enums;
 using ProniaTask.Business.Services.Abstracts;
 using ProniaTask.Core.Models;
 
@@ -27,10 +28,19 @@ namespace ProniaTask.Areas.Admin.Controllers
         [HttpPost]
         public async Task<IActionResult> Create(Category category)
         {
+            if (!ModelState.IsValid)
+                return View();
 
-            
+            try
+            {
+				await _categoryService.AddCategory(category);
+			}
+            catch (DuplicateCategoryException ex)
+            {
 
-            await _categoryService.AddCategory(category);
+                ModelState.AddModelError("Name", ex.Message);
+                return View();
+            }
             return RedirectToAction("index");
 
         }
@@ -39,7 +49,16 @@ namespace ProniaTask.Areas.Admin.Controllers
         [HttpPost]
         public IActionResult DeletePost(int id)
         {
-            _categoryService.DeleteCategory(id);
+            try
+            {
+				_categoryService.DeleteCategory(id);
+			}
+            catch (EntityNotFoundException ex)
+            {
+                return NotFound();
+                
+            }
+                
 
             return RedirectToAction("index");
         }
@@ -63,7 +82,7 @@ namespace ProniaTask.Areas.Admin.Controllers
         {
             var existCategory = _categoryService.GetCategory(x => x.Id == id);
 
-            if (existCategory == null) throw new NullReferenceException();
+            if (existCategory == null) return NotFound();
 
             return View(existCategory);
         }
@@ -71,7 +90,24 @@ namespace ProniaTask.Areas.Admin.Controllers
         [HttpPost]
         public IActionResult Update(Category newCategory)
         {
-            _categoryService.UpdateCategory(newCategory.Id, newCategory);
+            if (!ModelState.IsValid)
+                return View();
+
+            try
+            {
+				_categoryService.UpdateCategory(newCategory.Id, newCategory);
+			}
+            catch (EntityNotFoundException ex)
+            {
+
+                return NotFound();
+            }
+            catch (DuplicateCategoryException ex)
+            {
+                ModelState.AddModelError("Name",ex.Message);
+                return View();
+            }
+			
             return RedirectToAction("index");
         }
     }

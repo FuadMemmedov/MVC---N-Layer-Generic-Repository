@@ -13,5 +13,5 @@ public class Feature:BaseEntity
     public string Icon { get; set; } = null!;
     [StringLength(50)]
     public string Title { get; set; }
-    public string Description { get; set; }
+    public string? Description { get; set; }
 }
