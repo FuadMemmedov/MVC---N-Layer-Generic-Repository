@@ -19,8 +19,8 @@ namespace ProniaTask.Areas.Admin.Controllers
 
         public IActionResult Index()
         {
-            var slider = _sliderService.GetAllSliders();
-            return View(slider);
+            var sliders = _sliderService.GetAllSliders();
+            return View(sliders);
         }
 
         public IActionResult Create()

@@ -84,7 +84,8 @@ public class SliderService : ISliderService
 		oldSlider.ImageUrl = fileName;
         oldSlider.Title = newSlider.Title;
         oldSlider.Description = newSlider.Description;
-        oldSlider.Offer = newSlider.Description;
+        oldSlider.Offer = newSlider.Offer;
+        oldSlider.RedirectUrl = newSlider.RedirectUrl;
 
 
 

@@ -7,9 +7,10 @@
                 <div class="card" style="width: 18rem;">
                     <img class="card-img-top" src="~/uploads/sliders/@Model.ImageUrl" alt="Card image cap">
                     <div class="card-body">
+                        <p class="card-text">@Model.Offer</p>
                         <h5 class="card-title">@Model.Title</h5>
                         <p class="card-text">@Model.Description</p>
-                        <p class="card-text">@Model.Offer</p>
+                        <p class="card-text">@Model.RedirectUrl</p>
                         <a asp-action="index" asp-controller="slider" class="btn btn-primary">Go back</a>
                         <input asp-for="@Model.Id" hidden value="@Model.Id" />
                         <button type="submit" href="#" class="btn btn-outline-danger">Delete</button>
