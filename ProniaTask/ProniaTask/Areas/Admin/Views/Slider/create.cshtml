@@ -13,10 +13,12 @@
                 <div class="form-group">
                     <label for="exampleInputPassword1">Description</label>
                     <textarea rows="5" asp-for="Description" class="form-control"></textarea>
+                    <span asp-validation-for="Description" class="text-danger"></span>
                 </div>
                 <div class="form-group">
                     <label for="exampleInputPassword1">RedirectUrl</label>
                     <input rows="5" asp-for="RedirectUrl" class="form-control">
+                    <span asp-validation-for="RedirectUrl" class="text-danger"></span>
                 </div>
                 <div class="form-group">
                     <label for="exampleInputPassword1">ImageFile</label>
