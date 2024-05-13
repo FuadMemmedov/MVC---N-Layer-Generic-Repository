@@ -48,6 +48,15 @@ namespace ProniaTask.Areas.Admin.Controllers
                 ModelState.AddModelError("ImageFile", ex.Message);
                 return View();
             }
+            catch(FileNullReferenceException ex)
+            {
+                ModelState.AddModelError("ImageFile", ex.Message);
+                return View();
+            }
+            catch(Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
 
 
            
@@ -107,8 +116,15 @@ namespace ProniaTask.Areas.Admin.Controllers
             }
             catch (EntityNotFoundException ex)
             {
-
+                   return NotFound();
+            }
+            catch(Business.Exceptions.FileNotFoundException ex)
+            {
                 return NotFound();
+            }
+            catch(Exception ex)
+            {
+                return BadRequest(ex.Message);
             }
             return RedirectToAction("index");
         }

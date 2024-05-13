@@ -28,6 +28,11 @@ namespace ProniaTask.Controllers
             return View(homeVM);
         }
 
+        public IActionResult Index2()
+        {
+            return View();
+        }
+
 
 
 

@@ -128,8 +128,8 @@ namespace ProniaTask.Data.Migrations
                         .HasMaxLength(100)
                         .HasColumnType("nvarchar(100)");
 
-                    b.Property<string>("Offer")
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<double>("Offer")
+                        .HasColumnType("float");
 
                     b.Property<string>("RedirectUrl")
                         .HasColumnType("nvarchar(max)");

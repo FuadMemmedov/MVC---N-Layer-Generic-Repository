@@ -11,7 +11,7 @@ namespace ProniaTask.Core.Models;
 
 public class Slider:BaseEntity
 {
-    public string? Offer {  get; set; }
+    public double Offer {  get; set; }
     [Required]
     [StringLength(50)]
     public string Title { get; set; }
@@ -20,6 +20,6 @@ public class Slider:BaseEntity
     [StringLength(100)]
     public string? ImageUrl { get; set; }
     [NotMapped]
-    public IFormFile ImageFile { get; set; }
+    public IFormFile? ImageFile { get; set; }
 
 }
