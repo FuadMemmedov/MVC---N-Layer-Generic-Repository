@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using ProniaTask.Business.Enums;
 using ProniaTask.Business.Exceptions;
 using ProniaTask.Business.Services.Abstracts;
@@ -8,6 +9,7 @@ using ProniaTask.Core.Models;
 namespace ProniaTask.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize(Roles = "SuperAdmin")]
     public class SliderController : Controller
     {
 		private readonly ISliderService _sliderService;

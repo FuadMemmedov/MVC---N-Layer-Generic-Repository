@@ -1,6 +1,8 @@
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using ProniaTask.Business.Services.Abstracts;
 using ProniaTask.Business.Services.Concretes;
+using ProniaTask.Core.Models;
 using ProniaTask.Core.RepositoryAbstracts;
 using ProniaTask.Data.DAL;
 using ProniaTask.Data.RepositoryConcretes;
@@ -20,6 +22,16 @@ namespace ProniaTask
             options.UseSqlServer(builder.Configuration.GetConnectionString("default"))
             
             );
+            builder.Services.AddIdentity<AppUser, IdentityRole>(options =>
+            {
+                options.Password.RequireDigit = true;
+                options.Password.RequireNonAlphanumeric = true;
+                options.Password.RequireUppercase = true;
+                options.Password.RequireLowercase = true;
+                options.Password.RequiredLength = 8;
+
+                options.User.RequireUniqueEmail = false;
+            }).AddEntityFrameworkStores<AppDbContext>().AddDefaultTokenProviders();
 
             builder.Services.AddScoped<ICategoryService, CategoryService>();
             builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
@@ -38,7 +50,7 @@ namespace ProniaTask
             app.UseStaticFiles();
 
             app.UseRouting();
-
+            app.UseAuthentication();
             app.UseAuthorization();
             app.MapControllerRoute(
               name: "areas",

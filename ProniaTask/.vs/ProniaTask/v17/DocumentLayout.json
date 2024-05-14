@@ -3,20 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\memme\\Desktop\\MVC---N-Layer-Generic-Repository\\ProniaTask\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2AB876EF-E529-4F2A-A817-E25375FE0B2B}|ProniaTask\\ProniaTask.csproj|c:\\users\\memme\\desktop\\mvc---n-layer-generic-repository\\proniatask\\proniatask\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2AB876EF-E529-4F2A-A817-E25375FE0B2B}|ProniaTask\\ProniaTask.csproj|solutionrelative:proniatask\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{2AB876EF-E529-4F2A-A817-E25375FE0B2B}|ProniaTask\\ProniaTask.csproj|c:\\users\\memme\\desktop\\mvc---n-layer-generic-repository\\proniatask\\proniatask\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AB876EF-E529-4F2A-A817-E25375FE0B2B}|ProniaTask\\ProniaTask.csproj|solutionrelative:proniatask\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2AB876EF-E529-4F2A-A817-E25375FE0B2B}|ProniaTask\\ProniaTask.csproj|c:\\users\\memme\\desktop\\mvc---n-layer-generic-repository\\proniatask\\proniatask\\views\\shop\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2AB876EF-E529-4F2A-A817-E25375FE0B2B}|ProniaTask\\ProniaTask.csproj|solutionrelative:proniatask\\views\\shop\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{2AB876EF-E529-4F2A-A817-E25375FE0B2B}|ProniaTask\\ProniaTask.csproj|c:\\users\\memme\\desktop\\mvc---n-layer-generic-repository\\proniatask\\proniatask\\areas\\admin\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AB876EF-E529-4F2A-A817-E25375FE0B2B}|ProniaTask\\ProniaTask.csproj|solutionrelative:proniatask\\areas\\admin\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2AB876EF-E529-4F2A-A817-E25375FE0B2B}|ProniaTask\\ProniaTask.csproj|C:\\Users\\memme\\Desktop\\MVC---N-Layer-Generic-Repository\\ProniaTask\\proniatask\\views\\home\\index2.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2AB876EF-E529-4F2A-A817-E25375FE0B2B}|ProniaTask\\ProniaTask.csproj|solutionrelative:proniatask\\views\\home\\index2.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2AB876EF-E529-4F2A-A817-E25375FE0B2B}|ProniaTask\\ProniaTask.csproj|C:\\Users\\memme\\Desktop\\MVC---N-Layer-Generic-Repository\\ProniaTask\\proniatask\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2AB876EF-E529-4F2A-A817-E25375FE0B2B}|ProniaTask\\ProniaTask.csproj|solutionrelative:proniatask\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2AB876EF-E529-4F2A-A817-E25375FE0B2B}|ProniaTask\\ProniaTask.csproj|c:\\users\\memme\\desktop\\mvc---n-layer-generic-repository\\proniatask\\proniatask\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2AB876EF-E529-4F2A-A817-E25375FE0B2B}|ProniaTask\\ProniaTask.csproj|solutionrelative:proniatask\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,57 +22,46 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\memme\\Desktop\\MVC---N-Layer-Generic-Repository\\ProniaTask\\ProniaTask\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "ProniaTask\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\memme\\Desktop\\MVC---N-Layer-Generic-Repository\\ProniaTask\\ProniaTask\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "ProniaTask\\Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAACIAAAAyAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-13T21:50:17.522Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "detail.cshtml",
-              "DocumentMoniker": "C:\\Users\\memme\\Desktop\\MVC---N-Layer-Generic-Repository\\ProniaTask\\ProniaTask\\Views\\Shop\\detail.cshtml",
-              "RelativeDocumentMoniker": "ProniaTask\\Views\\Shop\\detail.cshtml",
-              "ToolTip": "C:\\Users\\memme\\Desktop\\MVC---N-Layer-Generic-Repository\\ProniaTask\\ProniaTask\\Views\\Shop\\detail.cshtml",
-              "RelativeToolTip": "ProniaTask\\Views\\Shop\\detail.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-13T21:05:48.833Z",
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\memme\\Desktop\\MVC---N-Layer-Generic-Repository\\ProniaTask\\ProniaTask\\Areas\\Admin\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "ProniaTask\\Areas\\Admin\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\memme\\Desktop\\MVC---N-Layer-Generic-Repository\\ProniaTask\\ProniaTask\\Areas\\Admin\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "ProniaTask\\Areas\\Admin\\Controllers\\AccountController.cs",
+              "ViewState": "AQIAADkAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T22:07:31.069Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Index2.cshtml",
-              "DocumentMoniker": "C:\\Users\\memme\\Desktop\\MVC---N-Layer-Generic-Repository\\ProniaTask\\ProniaTask\\Views\\Home\\Index2.cshtml",
-              "RelativeDocumentMoniker": "ProniaTask\\Views\\Home\\Index2.cshtml",
-              "ToolTip": "C:\\Users\\memme\\Desktop\\MVC---N-Layer-Generic-Repository\\ProniaTask\\ProniaTask\\Views\\Home\\Index2.cshtml",
-              "RelativeToolTip": "ProniaTask\\Views\\Home\\Index2.cshtml",
-              "ViewState": "AQIAABMAAAAAAAAAAAAAwBwAAAApAAAA",
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\memme\\Desktop\\MVC---N-Layer-Generic-Repository\\ProniaTask\\ProniaTask\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "ProniaTask\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\memme\\Desktop\\MVC---N-Layer-Generic-Repository\\ProniaTask\\ProniaTask\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "ProniaTask\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAHgAAAAAAAAAAAAewIkAAABgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-13T21:03:05.172Z"
+              "WhenOpened": "2024-05-14T22:03:18.045Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\memme\\Desktop\\MVC---N-Layer-Generic-Repository\\ProniaTask\\ProniaTask\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "ProniaTask\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\memme\\Desktop\\MVC---N-Layer-Generic-Repository\\ProniaTask\\ProniaTask\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "ProniaTask\\Controllers\\HomeController.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAAACAAAAAaAAAA",
+              "DocumentIndex": 0,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\memme\\Desktop\\MVC---N-Layer-Generic-Repository\\ProniaTask\\ProniaTask\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "ProniaTask\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\memme\\Desktop\\MVC---N-Layer-Generic-Repository\\ProniaTask\\ProniaTask\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "ProniaTask\\Controllers\\AccountController.cs",
+              "ViewState": "AQIAACsAAAAAAAAAAAAqwC4AAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-13T21:01:43.559Z"
+              "WhenOpened": "2024-05-14T22:03:01.96Z",
+              "EditorCaption": ""
             }
           ]
         }
